@@ -11,7 +11,7 @@ import git
 
 run = neptune.init_run(
     project="falearn/falearn",
-    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vbmV3LXVpLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiJlNTkzZTg5OC00ZWY0LTRiZjItYjhkZS1jMzY2ZjU2NjJiZWQifQ==",
+    api_token="",
 )  # your credentials
 
 params = {"lr": 0.001, "epochs": 8, "batch_size": 128}
